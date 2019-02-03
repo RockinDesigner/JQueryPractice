@@ -14,16 +14,17 @@ $(document).ready(function(){
 
       $(this).css("transform", "rotate("+ angle + "deg)")
     });
-    var count = 0
-    var images = ["img/1.png", "img/2.png", "img/3.png"]
 
-    setInterval(function() {
-      count += 1
-      var image = images[count]
+    //ACHTUNG! This code has bad works. :D
 
-      $("img").attr("src", image)
-
-    }, 2000)
-
+    // var count = 0
+    // var images = ["img/1.png", "img/2.png", "img/3.png"]
+    //
+    // setInterval(function() {
+    //   count += 1
+    //   var image = images[count]
+    //
+    //   $("img").attr("src", image)
+    // }, 2000)
   });
 });
