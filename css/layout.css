@@ -1,0 +1,17 @@
+html {
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(to right, #7b4397, #dc2430);
+}
+main {
+  position: relative;
+}
+img {
+  position: fixed;
+
+  width: 8%;
+}
